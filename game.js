@@ -100,6 +100,11 @@ static generateField(height, width, holePercentage) {
   }
 };
 
+
+//height = Hoehe des Spielfeldes
+//width = Breite des Spielfeldes
+//holePercentage = 0.1 => 10% ... 1 => 100%
+// Waehle selbst!!!
 const generateField = Field.generateField(5, 5, 0.2)
 const myField = new Field(generateField.field, generateField.startY, generateField.startX);
 
